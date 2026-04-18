@@ -102,3 +102,11 @@ function handlePointerMove(event) {
 function resetPointerMove(event) {
   event.currentTarget.style.transform = "";
 }
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js").catch(() => {
+      // Keep the page working even if the service worker fails.
+    });
+  });
+}
