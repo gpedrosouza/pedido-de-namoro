@@ -1,0 +1,26 @@
+{
+  "name": "A nossa historia",
+  "short_name": "Nosso Momento",
+  "description": "Uma experiencia romantica feita para um pedido de namoro especial.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff8fe",
+  "theme_color": "#ca2c92",
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
